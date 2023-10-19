@@ -6,22 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./listar-pensamento.component.css']
 })
 export class ListarPensamentoComponent {
-  listaPensamentos = [
-    {
-      conteudo: 'Teste teste som kkkk',
-      autoria: 'Erick',
-      modelo: 'modelo1'
-    },
-    {
-      conteudo: 'Murray',
-      autoria: 'Shaco',
-      modelo: 'modelo3'
-    },
-    {
-      conteudo: 'HAHAHAHAHAHAHAHAHHAAHAHAHAHAHAHAHAHAHHAAHAHAHAHAHAHAHAHAHHAAHAHAHAHAHAHAHAHAHHAAHAHAHAHAHAHAHAHAHHAAHAHAHAHAHAHAHAHAHHAAHAHAHAHAHAHAHAHAHHAAHAHAHAHAHAHAHAHAHHAAHAHAHAHAHAHAHAHAHHAAHAHAHAHAHAHAHAHAHHAAHAHAHAHAHAHAHAHAHHAAHAHAHAHAHAHAHAHAHHAAHAHAHAHAHAHAHAHAHHAAHAHAHAHAHAHAHAHAHHAAHAHAHAHAHAHAHAHAHHAA',
-      autoria: 'Shaco',
-      modelo: 'modelo3'
-    }
-  ];
+  listaPensamentos = [];
 
 }
