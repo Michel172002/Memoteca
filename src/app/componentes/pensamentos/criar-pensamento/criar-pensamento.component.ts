@@ -16,8 +16,4 @@ export class CriarPensamentoComponent {
   criarPensamento() {
     alert("Clicou no botao")
   }
-
-  cancelarFormulario() {
-    alert('Cancelar form')
-  }
 }
