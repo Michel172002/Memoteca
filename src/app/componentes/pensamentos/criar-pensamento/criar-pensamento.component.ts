@@ -12,4 +12,12 @@ export class CriarPensamentoComponent {
     autoria: 'dev',
     modelo: ''
   }
+
+  criarPensamento() {
+    alert("Clicou no botao")
+  }
+
+  cancelarFormulario() {
+    alert('Cancelar form')
+  }
 }
