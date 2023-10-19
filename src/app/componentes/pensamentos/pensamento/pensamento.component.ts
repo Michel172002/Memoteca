@@ -12,4 +12,12 @@ export class PensamentoComponent {
     autoria: 'Erick',
     modelo: 'modelo1'
   }
+
+  larguraPensamento(): string {
+    if(this.pensamento.conteudo.length >= 256){
+      return 'pensamento-g'
+    }else{
+      return 'pensamento-p'
+    }
+  }
 }
